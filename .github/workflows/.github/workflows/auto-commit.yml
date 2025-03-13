@@ -3,7 +3,6 @@ name: Auto Commit Daily
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs every day at midnight UTC
-  workflow_dispatch:  # Allows manual run if needed
 
 jobs:
   auto-commit:
